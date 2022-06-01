@@ -1,0 +1,17 @@
+footer {
+    text-align: center;
+}
+
+footer .iconos{
+    display: inline;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+    box-sizing: border-box;
+    width: 2em;
+    text-align: center;
+}
+
+footer section {
+    margin-top: 50px;
+}

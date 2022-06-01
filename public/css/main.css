@@ -1,0 +1,76 @@
+main {
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px
+}
+
+main section {
+    margin: 0px;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0px;
+    width: 100%;
+}
+
+main article {
+    background-color: white;
+    border-top: 1px solid #ebebeb;
+    text-align: left;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+main div {
+    height: 10px;
+}
+
+main img {
+    height: 50vw;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.caja {
+    border: #ebebeb 1px solid;
+}
+
+#titulares {
+    font-size: 24px;
+    text-align: center;
+    margin: 15px;
+}
+
+.camion {
+    display: inline-block;
+    color: #39b54a;
+    font-size: 2em;
+    margin: 0em;
+    padding: .4em;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#precios {
+    font-size: 18px;
+}
+
+#descuentos {
+    font-size: 16px;
+    color: #39b54a;
+    font-weight: normal;
+}
+
+#descripciones {
+    font-size: 16px;
+    font-weight: normal;
+    /* display: none; */
+}

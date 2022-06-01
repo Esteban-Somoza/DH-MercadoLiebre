@@ -1,0 +1,100 @@
+header {
+    background-color: #EAC926;
+    height: 100%;
+    padding: 1em;
+    width: 100vw;   
+}
+
+header div {
+    text-align: center;
+    display: block;
+}
+
+header nav {
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.header-top-bar {
+    margin-top: 0px;
+    display: block;
+    /* justify-content: space-between;
+    align-items: center; */
+}
+
+
+
+header nav ul {
+    padding-left: 0px;
+    margin-left: 0px;
+    list-style: none;
+    width: 70%;
+    /* display: flex; */
+}
+
+header nav ul a {
+    color: #222222;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+header nav ul li {
+    margin: auto;
+    /* width: 50%; */
+    border: red 1px solid;
+}
+
+
+
+
+
+header div img {
+    display: block;
+    width: 15em;
+    padding: 1em;
+    margin-top: 0px;
+}
+
+.banner {
+    margin: 0px;
+}
+
+.banner img {
+    /* display: none; */
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+    /* margin-bottom: 0px; */
+}
+
+.cuotas {
+    text-align: center;
+}
+
+.burger-menu {
+    font-size: 24px;
+    padding: 10px;
+    font-size: 2em;
+    background-color: #1259c3;
+    border-radius: .5em;
+    width: 40px;
+    display: block;
+    text-align: center;   
+}
+
+
+
+#busqueda {
+    margin-left: 2em;
+    display: inline;
+    color: #666;
+    background-color: white;
+    width: auto;
+}
+
+.lupa {
+    display: inline-block;
+}
