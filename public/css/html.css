@@ -1,18 +1,15 @@
-html{
-    min-width: 400px;
+*{
     margin: 0px;
     padding: 0px;
-    /* width: 100vw; */
+    border: none;
     box-sizing: border-box;
 }
 
 body {
+    min-width: 300px;
     font-family: 'roboto', sans-serif;
     font-size: 12px;
     background-color: #ebebeb;
-    margin: auto;
-    margin-top: 0px
-    /* width: 100vw; */
 }
 
 
