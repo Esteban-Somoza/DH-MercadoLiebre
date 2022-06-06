@@ -1,7 +1,21 @@
-Paleta de colores
-Amarillo: #EAC926;
-Azul: #03264C;
-Celeste: #1259c3;
-Gris oscuro: #666;
-Gris claro: #ebebeb;
-Verde: #39b54a;
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 250px;
+    font-family: 'roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ebebeb;
+}
+
+
+
+
+
+
+
+
