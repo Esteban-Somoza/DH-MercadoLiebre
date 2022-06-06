@@ -23,6 +23,7 @@ header {
 
 .cuotas {
     text-align: center;
+    margin:auto;
 }
 
 .burger-menu {
@@ -84,4 +85,5 @@ header nav ul li {
 .banner img {
     display: block;
     width: 100%;
+    margin-bottom: 15px;
 }
