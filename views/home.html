@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/media.css">
     <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/home-main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -25,7 +25,12 @@
     <header>
         <div class="header-top-bar">
             <img src="./images/logo-mercado-liebre.svg" alt="logo">
-            <h3 id="busqueda">Buscar productos, marcas <i class="fa-solid fa-magnifying-glass"> </i></h3>
+            <div id="busqueda">
+                <form action="GET">
+                    <input placeholder="Buscar productos, marcas y mas" type="text" name="user" id="name" data-error="Error">
+                </form>
+                <i class="fa-solid fa-magnifying-glass"> </i>
+            </div>
             <!-- <h3 id="busqueda"><i class="fa-solid fa-magnifying-glass"></i></h3> -->
             <h3 class="cuotas"><i class="fa-solid fa-hand-holding-dollar"></i> Compra en cuotas y sin tarjeta de credito
             </h3>
@@ -38,8 +43,8 @@
                 <li> <a href="#">Ayuda</a> </li>
             </ul>
             <ul>
-                <li> <a href="#">Crea tu Cuenta <i class="fa-solid fa-id-card"></i></a> </li>
-                <li> <a href="#">Ingresa <i class="fa-solid fa-arrow-right-to-bracket"></i></a> </li>
+                <li> <a href="/register">Crea tu Cuenta <i class="fa-solid fa-id-card"></i></a> </li>
+                <li> <a href="/login">Ingresa <i class="fa-solid fa-arrow-right-to-bracket"></i></a> </li>
                 <li> <a href="#">Mis Compras <i class="fa-solid fa-basket-shopping"></i></a> </li>
             </ul>
         </nav>

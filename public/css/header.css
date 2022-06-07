@@ -9,21 +9,42 @@ header {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    flex-shrink: 10%;
-    gap: 10px
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+div form {
+    width: 100%;
+}
+
+div input {
+    width: 100%;
+}
+
+div i {
+    justify-self: flex-end;
+    font-size: 15px;
 }
 
 #busqueda {
-    /* margin-left: 2em; */
-    display: inline;
+    display: flex;
+    height: 2em;
+    padding: 0 1em;
     color: #666;
     background-color: white;
-    width: 45%;
+    width: auto;
+    border-radius: 1em;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    flex-grow: 2;
 }
 
 .cuotas {
     text-align: center;
-    margin:auto;
+    width: auto;
+    margin: 0 auto;
 }
 
 .burger-menu {
@@ -38,8 +59,8 @@ header {
 
 header div img {
     display: block;
-    width: 45%;
-    max-height: 75px;
+    width: 30%;
+    max-height: 50px;
     justify-self: flex-start;
     /* padding: 1em; */
 }
@@ -66,7 +87,7 @@ header nav ul {
 header nav ul a {
     color: #222222;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 11px;
 }
 
 header nav ul li {

@@ -8,6 +8,7 @@
     <title>MercadoLiebre: Register</title>
     <link rel="stylesheet" href="/css/register.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/register-media.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/media.css">
     <link rel="stylesheet" href="/css/footer.css">
@@ -32,14 +33,14 @@
         </div>
         <nav class="navbar">
             <ul>
-                <li> <a href="#">Ofertas </a></li>
+                <li> <a href="/">Ofertas </a></li>
                 <li> <a href="#">Tiendas oficiales</a> </li>
                 <li> <a href="#">Vender</a> </li>
                 <li> <a href="#">Ayuda</a> </li>
             </ul>
             <ul>
-                <li> <a href="#">Crea tu Cuenta <i class="fa-solid fa-id-card"></i></a> </li>
-                <li> <a href="#">Ingresa <i class="fa-solid fa-arrow-right-to-bracket"></i></a> </li>
+                <li> <a href="/register">Crea tu Cuenta <i class="fa-solid fa-id-card"></i></a> </li>
+                <li> <a href="/login">Ingresa <i class="fa-solid fa-arrow-right-to-bracket"></i></a> </li>
                 <li> <a href="#">Mis Compras <i class="fa-solid fa-basket-shopping"></i></a> </li>
             </ul>
         </nav>
@@ -57,7 +58,7 @@
                 <label>
                     Nombre y apellido:
                 </label>
-                <input placeholder="nombre y apellido" type="text" name="user" id="name">
+                <input placeholder="nombre y apellido" type="text" name="user" id="name" data-error="Error">
                 <label>
                     Nombre de usuario:
                 </label>
@@ -70,6 +71,8 @@
                     Correo electrónico:
                 </label>
                 <input placeholder="email" type="email" name="email" id="email">
+                <label class="bold"> Foto de perfil </label>
+                <input class="file" type="file">
                 <label class="bold">
                     Fecha de nacimiento:
                 </label>
@@ -83,19 +86,30 @@
                     Perfil del usuario:
                 </label>
                 <div>
-                    <label for="comprar"> <input class="radio" type="radio" id="comprar" name="perfil" value="comprar"> Comprador </label>
+                    <label for="comprar"> <input class="radio" type="radio" id="comprar" name="perfil" value="comprar">
+                        Comprador </label>
                     <div></div>
-                    <label for="vender"> <input class="radio" type="radio" id="vender" name="perfil" value="vender"> Vendedor </label>
+                    <label for="vender"> <input class="radio" type="radio" id="vender" name="perfil" value="vender">
+                        Vendedor </label>
                 </div>
                 <label class="bold">
                     Intereses:
                 </label>
-                <div>   
-                    <label for="electro"> <input class="checkbox" type="checkbox" id="electro" name="electro" value="electro"> Electro </label>
-                    <label for="moda"> <input class="checkbox" type="checkbox" id="moda" name="moda" value="moda"> Moda </label>
-                    <label for="hogar"> <input class="checkbox" type="checkbox" id="hogar" name="hogar" value="hogar"> Hogar </label>
-                    <label for="jugueteria"> <input class="checkbox" type="checkbox" id="jugueteria" name="jugueteria" value="jugueteria"> Jugueteria </label>
-                    <label for="vidaSana">  <input class="checkbox" type="checkbox" id="vidaSana" name="vidaSana" value="vidaSana"> Vida Sana </label>
+                <div>
+                    <label for="electro"> <input class="checkbox" type="checkbox" id="electro" name="electro"
+                            value="electro"> Electro </label>
+                    <label for="moda"> <input class="checkbox" type="checkbox" id="moda" name="moda" value="moda"> Moda
+                    </label>
+                    <label for="hogar"> <input class="checkbox" type="checkbox" id="hogar" name="hogar" value="hogar">
+                        Hogar </label>
+                    <label for="jugueteria"> <input class="checkbox" type="checkbox" id="jugueteria" name="jugueteria"
+                            value="jugueteria"> Jugueteria </label>
+                    <label for="vidaSana"> <input class="checkbox" type="checkbox" id="vidaSana" name="vidaSana"
+                            value="vidaSana"> Vida Sana </label>
+                </div>
+                <div class="botones">
+                    <button type="reset">Borrar</button>
+                    <button class="registro" type="submit"><a href="/"></a>Registrarse</button>
                 </div>
             </form>
         </section>
