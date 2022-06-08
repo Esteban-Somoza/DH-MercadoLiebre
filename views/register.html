@@ -25,8 +25,14 @@
 <body>
     <header>
         <div class="header-top-bar">
-            <img src="./images/logo-mercado-liebre.svg" alt="logo">
-            <h3 id="busqueda">Buscar productos, marcas <i class="fa-solid fa-magnifying-glass"> </i></h3>
+            <!-- <a href="/"><img src="../images/mylogo.png" height="30" width="156" /></a> -->
+            <a href="/" class="logo"> <img src="./images/logo-mercado-liebre.svg" alt="logo"> </a>
+            <div id="busqueda">
+                <form action="GET">
+                    <input placeholder="Buscar productos, marcas y mas" type="text" name="user" id="name" data-error="Error">
+                </form>
+                <i class="fa-solid fa-magnifying-glass"> </i>
+            </div>
             <!-- <h3 id="busqueda"><i class="fa-solid fa-magnifying-glass"></i></h3> -->
             <h3 class="cuotas"><i class="fa-solid fa-hand-holding-dollar"></i> Compra en cuotas y sin tarjeta de credito
             </h3>
@@ -63,6 +69,7 @@
                     Nombre de usuario:
                 </label>
                 <input placeholder="nickname" type="text" name="nickname" id="nickname">
+                <span class="feedback">Debe tener minimo 8 caracteres</span>
                 <label>
                     Domicilio:
                 </label>

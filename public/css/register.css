@@ -23,7 +23,7 @@ label {
     margin-top: 5px;
 }
 
-input {
+main input {
     background-color: #ebebeb;
     border-radius: .75em;
     padding: 0 15px;
@@ -55,7 +55,7 @@ input {
     width: 100%;
 }
 
-div {
+main div {
     display: flex;
     flex-wrap: wrap;
     width: auto;
@@ -77,9 +77,6 @@ div input{
     font-size: 2em;
 }
 
-footer {
-    /* border-top: 2px solid #666; */
-}
 
 .botones{
     display: flex;
