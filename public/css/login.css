@@ -8,12 +8,6 @@ main {
     box-shadow: 0px 0px 10px #666;
 }
 
-label[data-error]  {
-    border-color: #c92432;
-    color: #c92432;
-    background-color: #fffafa;
-}
-
 label {
     display: block;
     text-align: left;
