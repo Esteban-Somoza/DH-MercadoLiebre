@@ -59,10 +59,15 @@ div i {
 
 header div img {
     display: block;
-    width: 30%;
+    width: 100%;
     max-height: 50px;
     justify-self: flex-start;
     /* padding: 1em; */
+}
+
+.logo {
+    width: 30%;
+    max-height: 50px;
 }
 
 header div {
@@ -108,3 +113,4 @@ header nav ul li {
     width: 100%;
     margin-bottom: 15px;
 }
+
