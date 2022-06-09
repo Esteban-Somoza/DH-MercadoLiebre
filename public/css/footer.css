@@ -13,6 +13,11 @@ footer .iconos{
     box-sizing: border-box;
     width: 2em;
     text-align: center;
+    transition: all 0.2s ease;
+}
+
+footer section:hover .iconos {
+    color: #EAC926;
 }
 
 footer section {
@@ -22,6 +27,7 @@ footer section {
 footer p {
     margin:auto;
     padding-top: 2em;
+    font-size: .8em;
 }
 
 footer a {
