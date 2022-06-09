@@ -27,9 +27,6 @@ main article {
     transition: all .3s;
 }
 
-article:hover {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-}
 
 article:hover > div > #descripciones {
     opacity: 1;

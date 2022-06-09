@@ -1,7 +1,7 @@
 footer {
     text-align: center;
     background-color: white;
-    padding: 1em 10em;
+    padding: 1em ;
     margin-top: 1em;
 }
 
@@ -19,8 +19,9 @@ footer section {
     margin-top: 10px;
 }
 
-html {
-    scroll-behavior: smooth;
+footer p {
+    margin:auto;
+    padding-top: 2em;
 }
 
 footer a {
@@ -64,3 +65,5 @@ footer div {
     position: relative;
     z-index: 5;
 }
+
+

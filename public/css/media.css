@@ -13,6 +13,10 @@
         grid-template-rows: 85vw 85vw 85vw 85vw;
     }
 
+    footer section {
+        display: block;
+    }
+
     #titulares {
         font-size: 18px;
     }
@@ -35,13 +39,25 @@
         display: none;
     }
 
-    main article {
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    footer section {
+        width: 30%
     }
 
     main section {
         grid-template-columns: 40vw 40vw;
         grid-template-rows: 50vw 50vw;
     }
+
+    main article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
 }
 
 @media (min-width: 769px) {

@@ -97,9 +97,19 @@ div input {
 button {
     padding: 10px;
     border-radius: .7em;
+    transition: all .3s ease;
+}
+
+button:hover {
+    border-radius: 1.4em;
 }
 
 .iniciar {
     font-weight: bold;
     background-color: #1259c3;
+}
+
+.iniciar:hover {
+    background-color: #0022AA;
+    color: white;
 }
