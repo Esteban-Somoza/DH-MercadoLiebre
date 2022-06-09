@@ -68,6 +68,11 @@ header div img {
 .logo {
     width: 30%;
     max-height: 50px;
+    transition: all .1s;
+}
+
+.logo:hover{
+    scale: 1.01;
 }
 
 header div {
@@ -92,12 +97,18 @@ header nav ul {
 header nav ul a {
     color: #222222;
     text-decoration: none;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 header nav ul li {
     margin: 5px;
+    transition: all 3s;
 }
+
+header nav ul li :hover {
+    font-weight: bold;
+}
+
 
 
 .lupa {
@@ -113,4 +124,3 @@ header nav ul li {
     width: 100%;
     margin-bottom: 15px;
 }
-
