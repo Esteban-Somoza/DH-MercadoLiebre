@@ -1,8 +1,11 @@
 const path = require('path');
 const express = require('express');
 const server = express();
+const port = process.env.PORT || 3000;
 
-server.listen(3000,() => console.log('Abiendo servidor en http://localhost:3000'))
+
+server.listen(port,() => console.log(`Abiendo servidor en http://localhost:${port}`));
+
 let public = path.resolve(__dirname, './public')
 server.use(express.static(public))
 
