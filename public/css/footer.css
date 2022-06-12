@@ -5,6 +5,7 @@ footer {
     margin-top: 1em;
 }
 
+
 footer .iconos{
     display: inline;
     font-size: 2em;
@@ -16,19 +17,15 @@ footer .iconos{
     transition: all 0.2s ease;
 }
 
-footer section:hover .iconos {
+footer article:hover .iconos {
     color: #EAC926;
 }
 
-footer section {
+footer article {
     margin-top: 10px;
+    /* width: 30%; */
 }
 
-footer p {
-    margin:auto;
-    padding-top: 2em;
-    font-size: .8em;
-}
 
 footer a {
     background-color: #03264C;
@@ -42,20 +39,14 @@ footer a {
     transition: all .2s ease;
     display: flex;
     z-index: 2;
+    box-shadow: 0px 0px 10px rgba(100, 100, 100, 1);
 }
 
-footer div {
-    background-color: #03264C;
-    border-radius: 50%;
-    width: 3em;
-    height: 3em;
-    position: fixed;
-    right: 1em;
-    bottom: 1em;
-    opacity: .5;
-    transition: all .4s ease;
-    display: flex;
-    z-index: 10;
+#copyright {
+    width: 100%;
+    margin:auto;
+    padding-top: 2em;
+    font-size: .8em;
 }
 
 #btn:hover {
@@ -70,6 +61,7 @@ footer div {
     margin: auto;
     position: relative;
     z-index: 5;
+
 }
 
 
