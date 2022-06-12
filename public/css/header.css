@@ -101,7 +101,7 @@ header nav ul a {
 
 header nav ul li {
     margin: 5px;
-    transition: all 3s;
+    /* transition: all 3s; */
 }
 
 header nav ul li :hover {
